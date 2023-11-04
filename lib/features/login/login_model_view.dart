@@ -27,14 +27,14 @@ class LoginViewModel {
       if (context.mounted) {
         showAlertMessage(context,
             message: "Login Success", type: MessageType.success);
+        Navigator.of(context).pushNamedAndRemoveUntil(
+            AppRoutes.navigationScreen, (route) => false);
       }
     } on ApiException catch (failure) {
       // show toast with error message
       if (context.mounted) {
         showAlertMessage(context,
             message: failure.error, type: MessageType.error);
-        Navigator.of(context)
-            .pushNamedAndRemoveUntil(AppRoutes.homePage, (route) => false);
       }
 
       loginCubit.onErrorState(Failure(message: failure.error));

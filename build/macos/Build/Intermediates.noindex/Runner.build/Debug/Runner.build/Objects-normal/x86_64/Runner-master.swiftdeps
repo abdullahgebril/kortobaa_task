@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "ff27a9e195c9f27c2e505e59951c57fb8530302e610e9f0327d5d1d6adf91c8c"
+build_start_time: [1699127556, 540755033]
+build_end_time: [1699127584, 874928951]
+inputs:
+  "/Users/abduaallh/Documents/GitHub/kortobaa_task/macos/Flutter/GeneratedPluginRegistrant.swift": [1699127461, 720707654]
+  "/Users/abduaallh/Documents/GitHub/kortobaa_task/macos/Runner/AppDelegate.swift": [1692812478, 0]
+  "/Users/abduaallh/Documents/GitHub/kortobaa_task/macos/Runner/MainFlutterWindow.swift": [1692812478, 0]
