@@ -1,0 +1,4 @@
+#Sat Nov 04 23:01:34 EET 2023
+base.0=/Users/abduaallh/Documents/GitHub/kortobaa_task/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
